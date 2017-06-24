@@ -37,8 +37,8 @@
 /* Port-UART mapping */
 #define P1uart &huart4
 #define P2uart &huart2
-#define P4uart &huart3
-#define P5uart &huart1
+#define P3uart &huart3
+#define P4uart &huart1
 
 /* Port Definitions */
 #define	USART1_TX_PIN		GPIO_PIN_9
@@ -76,7 +76,8 @@ typedef enum
 {
   H07R0_OK = 0,
 	H07R0_ERR_UnknownMessage = 1,
-} H07R0_Status;
+	H07R0_ERROR = 255
+} Module_Status;
 
 /* Indicator LED */
 #define _IND_LED_PORT		GPIOB
@@ -112,8 +113,6 @@ extern void MX_USART4_UART_Init(void);
    ----------------------------------------------------------------------- 
 */
 
-extern void H07R0_Init(void);
-extern H07R0_Status H07R0_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8_t dst);
 
 
 /* -----------------------------------------------------------------------

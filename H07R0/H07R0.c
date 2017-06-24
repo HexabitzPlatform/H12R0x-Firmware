@@ -40,11 +40,28 @@ UART_HandleTypeDef huart4;
    ----------------------------------------------------------------------- 
 */
 
+/* --- H07R0 module initialization. 
+*/
+void Module_Init(void)
+{	
+	/* Array ports */
+  MX_USART1_UART_Init();
+  MX_USART2_UART_Init();
+  MX_USART3_UART_Init();
+  MX_USART4_UART_Init();
+	
+	/* ADC */
+	//MX_ADC_Init();
+  
+}
+
+/*-----------------------------------------------------------*/
+
 /* --- H07R0 message processing task. 
 */
-H07R0_Status H07R0_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8_t dst)
+Module_Status Module_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8_t dst)
 {
-	H07R0_Status result = H07R0_OK;
+	Module_Status result = H07R0_OK;
 	
 	switch (code)
 	{
@@ -59,6 +76,21 @@ H07R0_Status H07R0_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8
 
 /*-----------------------------------------------------------*/
 
+/* --- Get the port for a given UART. 
+*/
+uint8_t GetPort(UART_HandleTypeDef *huart)
+{
+	if (huart->Instance == USART4)
+			return P1;
+	else if (huart->Instance == USART2)
+			return P2;
+	else if (huart->Instance == USART3)
+			return P3;
+	else if (huart->Instance == USART1)
+			return P4;
+		
+	return 0;
+}
 
 
 /* -----------------------------------------------------------------------
@@ -66,21 +98,6 @@ H07R0_Status H07R0_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8
    ----------------------------------------------------------------------- 
 */
 
-/* --- H07R0 module initialization. 
-*/
-void H07R0_Init(void)
-{	
-	/* Array ports */
-  MX_USART1_UART_Init();
-  MX_USART2_UART_Init();
-  MX_USART3_UART_Init();
-  MX_USART4_UART_Init();
-	
-	/* ADC */
-	//MX_ADC_Init();
-  
-}
-/*-----------------------------------------------------------*/
 
 
 /*-----------------------------------------------------------*/
