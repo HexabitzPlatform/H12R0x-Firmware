@@ -13,6 +13,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
+#include "H07R0_uart.h"	
+#include "H07R0_gpio.h"	
+#include "H07R0_dma.h"		
+#include "H07R0_adc.h"	
 
 /* Exported definitions -------------------------------------------------------*/
 
