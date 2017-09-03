@@ -29,8 +29,8 @@
 /* Define available ports */
 #define _P1 
 #define _P2 
+#define _P3 
 #define _P4 
-#define _P5 
 
 /* Define available USARTs */
 #define _Usart1 1
