@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * File Name          : H07R0_adc.h
+  * File Name          : H12R0_adc.h
   * Description        : This file contains all the functions prototypes for 
   *                      the ADC  
   ******************************************************************************
@@ -38,8 +38,8 @@
 */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __H07R0_adc_H
-#define __H07R0_adc_H
+#ifndef __H12R0_adc_H
+#define __H12R0_adc_H
 #ifdef __cplusplus
  extern "C" {
 #endif
@@ -59,7 +59,7 @@ extern uint16_t Sample(void);
 #ifdef __cplusplus
 }
 #endif
-#endif /*__H07R0_adc_H */
+#endif /*__H12R0_adc_H */
 
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
