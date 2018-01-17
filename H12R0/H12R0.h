@@ -2,25 +2,25 @@
     BitzOS (BOS) V0.0.0 - Copyright (C) 2016 Hexabitz
     All rights reserved
 		
-    File Name     : H07R0.c
-    Description   : Header file for module H07R0.
+    File Name     : H12R0.c
+    Description   : Header file for module H12R0.
 										Analog inputs 0 - 5V/10V (AD628ARZ) 
 */
 	
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef H07R0_H
-#define H07R0_H
+#ifndef H12R0_H
+#define H12R0_H
 
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
-#include "H07R0_uart.h"	
-#include "H07R0_gpio.h"	
-#include "H07R0_dma.h"		
-#include "H07R0_adc.h"	
+#include "H12R0_uart.h"	
+#include "H12R0_gpio.h"	
+#include "H12R0_dma.h"		
+#include "H12R0_adc.h"	
 
 /* Exported definitions -------------------------------------------------------*/
 
-#define	modulePN		_H07R0
+#define	modulePN		_H12R0
 
 /* Port-related definitions */
 #define	NumOfPorts		4
@@ -78,9 +78,9 @@
 /* H01R0_Status Type Definition */  
 typedef enum 
 {
-  H07R0_OK = 0,
-	H07R0_ERR_UnknownMessage = 1,
-	H07R0_ERROR = 255
+  H12R0_OK = 0,
+	H12R0_ERR_UnknownMessage = 1,
+	H12R0_ERROR = 255
 } Module_Status;
 
 /* Indicator LED */
@@ -127,6 +127,6 @@ extern void MX_USART4_UART_Init(void);
 
 
 
-#endif /* H07R0_H */
+#endif /* H12R0_H */
 
 /************************ (C) COPYRIGHT HEXABITZ *****END OF FILE****/

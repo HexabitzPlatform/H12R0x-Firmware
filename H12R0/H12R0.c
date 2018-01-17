@@ -2,8 +2,8 @@
     BitzOS (BOS) V0.0.0 - Copyright (C) 2016 Hexabitz
     All rights reserved
 
-    File Name     : H07R0.c
-    Description   : Source code for module H07R0.
+    File Name     : H12R0.c
+    Description   : Source code for module H12R0.
 										Analog inputs 0 - 5V/10V (AD628ARZ) 
 		
 		Required MCU resources : 
@@ -40,7 +40,7 @@ UART_HandleTypeDef huart4;
    ----------------------------------------------------------------------- 
 */
 
-/* --- H07R0 module initialization. 
+/* --- H12R0 module initialization. 
 */
 void Module_Init(void)
 {	
@@ -57,17 +57,17 @@ void Module_Init(void)
 
 /*-----------------------------------------------------------*/
 
-/* --- H07R0 message processing task. 
+/* --- H12R0 message processing task. 
 */
 Module_Status Module_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8_t dst)
 {
-	Module_Status result = H07R0_OK;
+	Module_Status result = H12R0_OK;
 	
 	switch (code)
 	{
 
 		default:
-			result = H07R0_ERR_UnknownMessage;
+			result = H12R0_ERR_UnknownMessage;
 			break;
 	}			
 

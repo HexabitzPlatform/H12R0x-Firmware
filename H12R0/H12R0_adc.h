@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * File Name          : H07R0_gpio.h
+  * File Name          : H12R0_adc.h
   * Description        : This file contains all the functions prototypes for 
-  *                      the gpio  
+  *                      the ADC  
   ******************************************************************************
   *
   * COPYRIGHT(c) 2015 STMicroelectronics
@@ -38,8 +38,8 @@
 */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __H07R0_gpio_H
-#define __H07R0_gpio_H
+#ifndef __H12R0_adc_H
+#define __H12R0_adc_H
 #ifdef __cplusplus
  extern "C" {
 #endif
@@ -47,16 +47,19 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f0xx_hal.h"
 
-
-extern void MX_GPIO_Init(void);
-extern void IND_LED_Init(void);
+	 
+extern ADC_HandleTypeDef hadc;
+	 
+	 
+extern void MX_ADC_Init(void);
+extern uint16_t Sample(void);
 	 
 
 
 #ifdef __cplusplus
 }
 #endif
-#endif /*__H07R0_gpio_H */
+#endif /*__H12R0_adc_H */
 
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
