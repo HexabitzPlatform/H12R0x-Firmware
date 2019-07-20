@@ -24,6 +24,10 @@ UART_HandleTypeDef huart3;
 UART_HandleTypeDef huart4;
 
 
+/* Module exported parameters ------------------------------------------------*/
+module_param_t modParam[NUM_MODULE_PARAMS] = {{.paramPtr=NULL, .paramFormat=FMT_FLOAT, .paramName=""}};
+
+
 /* Private variables ---------------------------------------------------------*/
 
 

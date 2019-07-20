@@ -75,6 +75,8 @@
 #define	_AI_PORT			GPIOB
 #define	_AI_Channel		ADC_CHANNEL_8
 
+#define NUM_MODULE_PARAMS		1
+
 /* H01R0_Status Type Definition */  
 typedef enum 
 {
