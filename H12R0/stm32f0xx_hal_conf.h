@@ -33,7 +33,7 @@
   */ 
 	
 /*
-		MODIFIED by Hexabitz for BitzOS (BOS) V0.1.3 - Copyright (C) 2017 Hexabitz
+		MODIFIED by Hexabitz for BitzOS (BOS) V0.2.4 - Copyright (C) 2017-2021 Hexabitz
     All rights reserved
 */
 
@@ -53,11 +53,11 @@
   * @brief This is the list of modules to be used in the HAL driver 
   */
 #define HAL_MODULE_ENABLED  
-#define HAL_ADC_MODULE_ENABLED   
+#define HAL_ADC_MODULE_ENABLED
 //#define HAL_CAN_MODULE_ENABLED   
 //#define HAL_CEC_MODULE_ENABLED   
 //#define HAL_COMP_MODULE_ENABLED   
-//#define HAL_CRC_MODULE_ENABLED   
+#define HAL_CRC_MODULE_ENABLED   
 //#define HAL_CRYP_MODULE_ENABLED   
 //#define HAL_TSC_MODULE_ENABLED   
 //#define HAL_DAC_MODULE_ENABLED   
