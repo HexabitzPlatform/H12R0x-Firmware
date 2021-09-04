@@ -3,15 +3,7 @@
  All rights reserved
 
  File Name     : H12R0.c
- Description   : Source code for module H0FR1 SPDT mechanical DC relay
- and module H0FR6 Solid state AC relay (AQH3213A).
-
-
- Required MCU resources :
-
- >> USARTs 1,2,3,4,6 for module ports.
- >> Timer 3 (Ch3) for Relay PWM (H0FR6 only).
- >> GPIOB 0 for Relay.
+ Description   : Source code for module H12R0.
 
  */
 
