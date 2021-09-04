@@ -4,9 +4,7 @@
 
  File Name     : H12R0.c
  Description   : Source code for module H12R0.
-
  */
-
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
 

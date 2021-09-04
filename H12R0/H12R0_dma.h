@@ -4,7 +4,6 @@
 
  File Name     : H12R0_dma.h
  Description   : Header file contains Peripheral DMA setup.
-
  */
 
 /* Define to prevent recursive inclusion -------------------------------------*/

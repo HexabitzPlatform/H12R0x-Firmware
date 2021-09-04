@@ -9,7 +9,6 @@
 
  >> Timer 14 for micro-sec delay.
  >> Timer 15 for milli-sec delay.
-
  */
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"

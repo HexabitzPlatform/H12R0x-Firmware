@@ -1,13 +1,10 @@
-/*
-/*
-    BitzOS (BOS)V0.2.5 - Copyright (C) 2017-2021 Hexabitz
-    All rights reserved
-		
-    File Name     : H12R0.h
-    Description   : Header file for module H26R0.
+ /*
+ BitzOS (BOS)V0.2.5 - Copyright (C) 2017-2021 Hexabitz
+ All rights reserved
 
-*/
-	
+ File Name     : H12R0.h
+ Description   : Header file for module H12R0.
+ */
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef H12R0_H
 #define H12R0_H
@@ -22,7 +19,7 @@
 	
 /* Exported definitions -------------------------------------------------------*/
 
-#define	modulePN		_H09R0
+#define	modulePN		_H12R0
 #define _IND_LED_PORT		GPIOA
 #define _IND_LED_PIN		GPIO_PIN_11
 

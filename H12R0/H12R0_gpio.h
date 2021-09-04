@@ -6,6 +6,7 @@
  Description   : Header file contains all the functions prototypes for
  the GPIO .
  */
+/* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __H09R0_gpio_H
 #define __H09R0_gpio_H
 #ifdef __cplusplus

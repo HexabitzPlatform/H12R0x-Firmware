@@ -4,7 +4,6 @@
 
  File Name     : H12R0_it.c
  Description   :Interrupt Service Routines.
-
  */
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"

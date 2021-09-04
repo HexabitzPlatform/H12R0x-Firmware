@@ -5,7 +5,6 @@
  File Name     : H12R0_uart.h
  Description   : Header file provides configuration for USART instances.
  */
-
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __H09R0_uart_H
 #define __H09R0_uart_H

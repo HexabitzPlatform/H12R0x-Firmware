@@ -1,10 +1,11 @@
 /*
-    BitzOS (BOS) V0.2.5 - Copyright (C) 2017-2021 Hexabitz
-    All rights reserved
+ BitzOS (BOS) V0.2.5 - Copyright (C) 2017-2021 Hexabitz
+ All rights reserved
 
-    File Name     : H12R0_dma.c
-    Description   : Peripheral ADC setup source file.
-*/
+ File Name     : H12R0_dma.c
+ Description   : Peripheral ADC setup source file.
+ */
+/* Includes ------------------------------------------------------------------*/
 #include <H12R0_adc.h>
 
 void ADC_Channel_config(void){

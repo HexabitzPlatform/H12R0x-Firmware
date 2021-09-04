@@ -7,7 +7,6 @@
  Description   : Module MCU memory map header file.
 
  */
-
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef H09R0_MEMORYMAP_H
 #define H09R0_MEMORYMAP_H

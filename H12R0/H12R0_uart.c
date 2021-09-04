@@ -1,10 +1,4 @@
 /*
-    BitzOS (BOS) V0.2.4 - Copyright (C) 2017-2021 Hexabitz
-    All rights reserved
-
-    File Name     : H09R0_dma.c
-    Description   : Peripheral DMA setup source file.
-/*
  BitzOS (BOS) V0.2.5 - Copyright (C) 2017-2021 Hexabitz
  All rights reserved
 
@@ -12,8 +6,6 @@
  Description   : Source Code provides configuration for USART instances.
 
  */
-
-/* Includes ------------------------------------------------------------------*/
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
 

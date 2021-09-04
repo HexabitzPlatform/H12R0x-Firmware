@@ -4,8 +4,7 @@
 
  File Name     : H12R0_gpio.c
  Description   : Source code provides code for the configuration of all used GPIO pins .
-
- */
+*/
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
 

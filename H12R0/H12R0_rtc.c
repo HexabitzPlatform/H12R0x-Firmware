@@ -6,7 +6,6 @@
  Description   : Peripheral RTC setup source file.
 
  */
-
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
 
