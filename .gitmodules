@@ -1,8 +1,8 @@
 [submodule "BOS"]
 	path = BOS
-	url = https://bitbucket.org/hexabitz/bos
+url=https://github.com/hexabitzplatform/BOS
 	branch = master
 [submodule "Thirdparty"]
 	path = Thirdparty
-	url = https://bitbucket.org/hexabitz/thirdparty
+url=https://github.com/hexabitzplatform/Thirdparty
 	branch = master
