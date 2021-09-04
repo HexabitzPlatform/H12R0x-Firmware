@@ -1,0 +1,4 @@
+H12R0_gpio.c:36:6:IND_LED_Init	32	static
+H12R0_gpio.c:21:6:GPIO_Init	32	static
+H12R0_gpio.c:107:12:GetPortGPIOs	16	static
+H12R0_gpio.c:53:9:IsFactoryReset	88	static

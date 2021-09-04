@@ -1,8 +1,8 @@
 /*
- BitzOS (BOS) V0.2.4 - Copyright (C) 2017-2021 Hexabitz
+ BitzOS (BOS) V0.2.5 - Copyright (C) 2017-2021 Hexabitz
  All rights reserved
 
- File Name     : H09R0.c
+ File Name     : H12R0.c
  Description   : Source code for module H0FR1 SPDT mechanical DC relay
  and module H0FR6 Solid state AC relay (AQH3213A).
 
@@ -339,7 +339,7 @@ uint8_t ClearROtopology(void) {
 }
 /* --- H12R0 module initialization ---
  */
-void Module_Init(void) {
+void Module_Peripheral_Init(void) {
 
 	/* Array ports */
 	MX_USART1_UART_Init();

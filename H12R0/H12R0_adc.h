@@ -1,14 +1,10 @@
 /*
- * H09R0_adc.h
- *
- *  Created on: ١٧‏/٠٣‏/٢٠٢١
- *      Author: shift
- */
+    BitzOS (BOS) V0.2.5 - Copyright (C) 2017-2021 Hexabitz
+    All rights reserved
 
-//#ifndef H09R0_ADC_H_
-//#define H09R0_ADC_H_
-
-
+    File Name     : H12R0_dma.c
+    Description   : Peripheral ADC setup header file.
+*/
 #ifndef H12R0_ADC_H_
 #define H12R0_ADC_H_
 

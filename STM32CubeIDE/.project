@@ -265,9 +265,9 @@
 			<locationURI>PARENT-1-PROJECT_LOC/User/project.h</locationURI>
 		</link>
 		<link>
-			<name>User/topology_ex.h</name>
+			<name>User/topology.h</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/User/topology_ex.h</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/User/topology.h</locationURI>
 		</link>
 		<link>
 			<name>Thirdparty/CMSIS/Device</name>
@@ -1119,6 +1119,10 @@
 		<variable>
 			<name>copy_PARENT</name>
 			<value>$%7BPARENT-1-PROJECT_LOC%7D/H12R0x-Firmware-master</value>
+		</variable>
+		<variable>
+			<name>copy_PARENT1</name>
+			<value>file:/F:/HexaBitz_files/Modules/H26R0x/H26R0x</value>
 		</variable>
 	</variableList>
 </projectDescription>
