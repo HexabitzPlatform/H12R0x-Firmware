@@ -1,5 +1,5 @@
  /*
- BitzOS (BOS)V0.2.5 - Copyright (C) 2017-2021 Hexabitz
+ BitzOS (BOS)V0.2.6 - Copyright (C) 2017-2022 Hexabitz
  All rights reserved
 
  File Name     : H12R0.h
@@ -15,7 +15,8 @@
 #include "H12R0_uart.h"
 #include "H12R0_gpio.h"
 #include "H12R0_dma.h"
-	
+#include "H12R0_inputs.h"
+#include "H12R0_eeprom.h"
 	
 /* Exported definitions -------------------------------------------------------*/
 
@@ -137,6 +138,7 @@ extern uint32_t Volt_buffer[1];
 */
 extern Module_Status SampleRead(float * volt);
 extern float CalculationVolt(void);
+void remoteBootloaderUpdate(uint8_t src,uint8_t dst,uint8_t inport,uint8_t outport);
 
 #endif
 /************************ (C) COPYRIGHT HEXABITZ *****END OF FILE****/
